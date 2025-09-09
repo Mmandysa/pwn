@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.word": "plaintext",
+    "*.vue": "vue",
+    "*.pdf": "latex",
+    "stdio.h": "c"
+  }
+}
